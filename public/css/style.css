@@ -34,6 +34,11 @@
     height: 675px;
 }
 
+.right-header {
+    width: 50%;
+    float: right;
+}
+
 .menu-header {
     color: var(--primaryColor);
     text-align: center;
@@ -49,51 +54,54 @@
 
 .right-header-section {
     text-align: center;
+    margin-top: 71px;
 }
 
 .title-product-header {
-    margin-top: 77px;
+    margin-top: 43px;
 }
 
 .title-product-header h1 {
     font-family: emoji;
-    letter-spacing: 5px;
+    letter-spacing: 6px;
+    font-size: 30px;
 }
 
 .title-product-header h4 {
     letter-spacing: 1px;
+    font-size: 18px;
 }
 
 .title-product-header img {
-    width: 14%;
-    margin-top: 9px;
-    margin-bottom: -18px;
+    width: 18%;
 }
 
 .title-product-header p {
     color: var(--primaryColor);
-    font-size: 20px;
+    font-size: 16px;
+    margin-top: -12px;
 }
 
-.title-product-paragraph {
-    margin-top: 40px;
+.header-product-paragraph {
+    margin-top: 25px;
+    margin-bottom: 22px;
 }
 
-.title-product-paragraph h4 {
-    font-size: 18px;
+.header-product-paragraph h4 {
+    font-size: 16px;
     font-weight: bold;
     margin-bottom: 0px;
 }
 
-.title-product-paragraph p {
-    width: 83%;
-    margin: 0px 16%;
+.header-product-paragraph p {
+    width: 74%;
+    margin: 0px 14%;
 }
 
 .quantity-input {
     border-radius: 42%;
-    width: 8%;
-    height: 51px;
+    width: 11%;
+    height: 46px;
     border: 1px solid var(--primaryColor);
     text-align: center;
     font-family: var(--latoFont);
@@ -108,5 +116,32 @@ input[type=number]::-webkit-inner-spin-button {
     outline: none !important;
     border:1px solid var(--primaryColor);
     box-shadow: 0 0 10px var(--primaryColor);
+}
+
+.header-product-form p {
+    font-size: 32px;
+    font-family: initial;
+}
+
+.header-product-form button {
+    border: 0;
+    background-color: var(--primaryColor);
+    color: white;
+    width: 68%;
+    height: 56px;
+}
+
+.header-advantages img {
+    padding-bottom: 2px;
+}
+
+.header-advantages {
+    color: var(--primaryColor);
+    padding-top: 30px;
+}
+
+.description {
+    font-size: 12px;
+    letter-spacing: 1px;
 }
 
