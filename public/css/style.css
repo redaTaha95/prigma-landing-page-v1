@@ -1,11 +1,16 @@
 :root {
     --primaryColor: #c29780;
     --secondaryColor: #eadfda;
+    --boldPrimaryColor: #7f462d;
     --latoFont: 'Lato', sans-serif;
 }
 
 * {
     font-family: var(--latoFont);
+}
+
+.header {
+    height: 712px;
 }
 
 .top-header {
@@ -37,13 +42,14 @@
 .right-header {
     width: 50%;
     float: right;
+    height: 675px;
+    padding-right: 12px;
 }
 
 .menu-header {
     color: var(--primaryColor);
     text-align: center;
     font-size: 12px;
-    width: 89%;
     padding-top: 27px;
 }
 
@@ -145,3 +151,373 @@ input[type=number]::-webkit-inner-spin-button {
     letter-spacing: 1px;
 }
 
+.advantages-section {
+    background-color: var(--secondaryColor);
+    height: 200px;
+    padding-top: 3%;
+}
+
+.advantages-row {
+    text-align: center;
+}
+
+.advantages-row img {
+    width: 20%;
+}
+
+.advantages-row p {
+    color: var(--boldPrimaryColor);
+    margin-top: 5%;
+    font-size: 13px;
+}
+
+.flattery-section {
+    height: 550px;
+}
+
+.image-section-one {
+    float: right;
+    width: 50%;
+    height: inherit;
+}
+
+.image-section-one img {
+    height: inherit;
+    width: 100%;
+}
+
+.text-section-one {
+    width: 50%;
+    height: inherit;
+    text-align: center;
+    padding-top: 170px;
+}
+
+.text-section-one h4 {
+    font-family: ui-monospace;
+    font-style: italic;
+    margin-top: -9px;
+    letter-spacing: 2px;
+}
+
+.text-section-one h1 {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.text-section-one p {
+    width: 66%;
+    margin: 0 auto;
+}
+
+.flattery-section-two {
+    height: 550px;
+}
+
+.image-section-two {
+    float: left;
+    width: 50%;
+    height: inherit;
+}
+
+.image-section-two img {
+    height: inherit;
+    width: 100%;
+}
+
+.text-section-two {
+    width: 50%;
+    height: inherit;
+    text-align: center;
+    padding-top: 170px;
+    float: right;
+}
+
+.text-section-two p {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.text-section-two img {
+    width: 25%;
+    margin-bottom: 5%;
+}
+
+.guide-section {
+    width: 100%;
+    height: 502px;
+    margin-top: 30px;
+}
+
+.guide-section img{
+    width: inherit;
+    height: inherit;
+}
+
+.questions-section {
+    background-color: var(--secondaryColor);
+    text-align: center;
+}
+
+.questions-section > h1:first-of-type {
+    font-size: 27px;
+    letter-spacing: 2px;
+    padding-top: 42px;
+    font-weight: 600;
+}
+
+.questions-block {
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+.question-block {
+    width: 70%;
+    margin: 16px auto;
+}
+
+.question-collapsed {
+    background-color: var(--primaryColor);
+    height: 50px;
+}
+
+.question-collapsed h1 {
+    color: white;
+    font-size: 21px;
+    letter-spacing: 3px;
+    padding-top: 12px;
+}
+
+.answer {
+    height: 100px;
+    padding-top: 14px;
+    background-color: antiquewhite;
+}
+
+.answer p {
+    width: 90%;
+    margin: 0px auto;
+    font-size: 16px;
+}
+
+.question-openned {
+    background-color: bisque;
+    height: 50px;
+}
+
+.question-openned h1 {
+    color: var(--primaryColor);
+    font-size: 21px;
+    letter-spacing: 3px;
+    padding-top: 12px;
+}
+
+.question-openned .question-openned-footer {
+    height: 4px;
+    background-color: var(--boldPrimaryColor);
+}
+
+#answer-one, #answer-two, #answer-three {
+    display: none;
+}
+
+.related-products-section-title {
+    font-size: 27px;
+    font-weight: 600;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.product-container {
+    text-align: center;
+}
+
+.stars-container {
+    background-color: #ebffae;
+    width: inherit;
+    height: 55px;
+}
+
+.stars-container img {
+    width: 44%;
+    padding-top: 18px;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+.title-product-container {
+    background-color: #ebffae;
+    width: inherit;
+    height: 100px;
+    padding-top: 18px;
+}
+
+.title-product-container h1 {
+    font-size: 31px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.title-product-container h4 {
+    color: #008000bf;
+    font-size: 16px;
+}
+
+.feedbacks-section {
+    padding-top: 50px;
+}
+
+.feedbacks-section-header{
+    color: var(--primaryColor);
+    border-bottom: 5px solid var(--primaryColor);
+}
+
+.feedbacks-section-header h1 {
+    font-weight: 300;
+}
+
+.feedbacks-block {
+    padding-top: 25px;
+}
+
+.feedback {
+    padding-top: 15px;
+}
+
+.feedback h5 {
+    color: var(--primaryColor);
+    letter-spacing: 1px;
+}
+
+.feedback-header {
+    background-color: var(--primaryColor);
+    color: white;
+    font-size: 26px;
+    padding-top: 6px;
+}
+
+.feedback-header img {
+    width: 50%;
+    float: right;
+}
+
+.feedback-content {
+    padding-top: 5px;
+    border-bottom: 5px solid var(--boldPrimaryColor);
+    
+}
+
+.feedback-content span {
+    float: right;
+    color: var(--primaryColor);
+    font-size: 20px;
+}
+
+.feedback-content p {
+    font-size: 18px;
+}
+
+.certificates-section {
+    background-color: var(--secondaryColor);
+    text-align: center;
+    padding-top: 24px;
+    margin-top: 35px;
+}
+
+.certificates-section h1 {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 5px;
+}
+
+.logos-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.logos-container img {
+    width: 50%;
+}
+
+.col-one-background {
+    background-color: #934a4a85;
+    padding: 13px 70px;
+}
+
+.col-two-background {
+    background-color: var(--primaryColor);
+    text-align: center;
+    padding-top: 30px;
+}
+
+.col-three-background {
+    background-color: black;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.footer-header {
+    padding-right: 12px;
+}
+
+.col-one-background h1 {
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+
+.col-one-background p {
+    letter-spacing: 1px;
+}
+
+.col-two-background h1 {
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+}
+
+.col-three-background h1 {
+    font-size: 24px;
+    color: white;
+    font-weight: 300;
+}
+
+.footer-content {
+    padding-top: 44px;
+    padding-bottom: 44px;
+}
+
+.footer-content h5 {
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.footer-logo {
+    width: 12%;
+    float: right;
+    margin-top: -81px;
+}
+
+.footer-section {
+    background-color: var(--secondaryColor);
+}
+
+.cards-container img {
+    width: 80%;
+}
+
+.cards-container {
+    width: 50%;
+}
+
+.rights-container {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.rights-container span {
+    font-weight: 600;
+    letter-spacing: 1px;
+}
