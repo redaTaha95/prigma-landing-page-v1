@@ -9,6 +9,14 @@
     font-family: var(--latoFont);
 }
 
+.hide-web {
+    display: block;
+}
+
+.hide-mobile {
+    display: none;
+}
+
 .header {
     height: 712px;
 }
@@ -30,6 +38,10 @@
 
 }
 
+.logo-header img {
+    width: 20%;
+}
+
 .left-header {
     background-image: url(../images/photo-v1-01.png);
     background-size: contain;
@@ -37,6 +49,8 @@
     width: 50%;
     float: left;
     height: 675px;
+    padding-top: 50px;
+    padding-left: 50px;
 }
 
 .right-header {
@@ -153,7 +167,6 @@ input[type=number]::-webkit-inner-spin-button {
 
 .advantages-section {
     background-color: var(--secondaryColor);
-    height: 200px;
     padding-top: 3%;
 }
 
@@ -289,9 +302,9 @@ input[type=number]::-webkit-inner-spin-button {
 }
 
 .answer {
-    height: 100px;
     padding-top: 14px;
     background-color: antiquewhite;
+    padding-bottom: 20px;
 }
 
 .answer p {
@@ -520,4 +533,252 @@ input[type=number]::-webkit-inner-spin-button {
 .rights-container span {
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+@media screen and (max-width: 600px) {
+    
+    .hide-web {
+        display: none;
+    }
+
+    .hide-mobile {
+        display: block;
+    }
+
+    .top-header h4 {
+        font-size: 14px;
+    }
+
+    .top-mobile-header {
+        background-image: url(../images/photo-v1-01.png);
+        height: 436px;
+        background-size: contain;
+        background-repeat: round;
+    }
+
+    .logo-mobile {
+        text-align: right;
+        padding-top: 20px;
+    }
+
+    .logo-mobile img {
+        width: 45%;
+    }
+
+    .icons-nav {
+        padding-top: 10px;
+        text-align: right;
+    }
+
+    .header-mobile-bottom {
+        margin-top: 290px;
+        text-align: center;
+    }
+
+    .header-mobile-bottom img {
+        width: 50%;
+    }
+
+    .right-header-section {
+        margin-top: -25px;
+    }
+
+    .header-product-paragraph h4 {
+        font-size: 10px;
+    }
+
+    .header-product-paragraph p {
+        font-size: 10px;
+        width: 80%;
+        margin: 0px auto;  
+    }
+
+    .header-product-form button {
+        width: 90%;
+        height: 45px;
+    }
+
+    .description {
+        font-size: 9px;
+    }
+
+    .header-advantages {
+        padding-bottom: 30px;
+    }
+
+    .advantages-row {
+        margin: 30px -4px;
+    }
+
+    .advantages-row img {
+        width: 19%;
+    }
+
+    .advantages-row p {
+        font-size: 10px;
+    }
+
+    .mobile-image-section-one {
+        height: 350px;
+        width: 100%;
+    }
+
+    .mobile-image-section-one img {
+        height: inherit;
+        width: inherit;
+    }
+
+    .mobile-text-section-one {
+        padding-top: 35px;
+        text-align: center;
+    }
+
+    .mobile-text-section-one h1 {
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .mobile-text-section-one h4 {
+        font-family: ui-monospace;
+        font-style: italic;
+        margin-top: -9px;
+        letter-spacing: 2px;
+    }
+
+    .mobile-text-section-one p {
+        width: 100%;
+        font-size: 14px;
+        margin: 0 auto;
+    }
+
+    .flattery-mobile-section-two {
+        padding-top: 30px;
+    }
+
+    .mobile-image-section-two {
+        height: 375px;
+    }
+
+    .mobile-image-section-two img {
+        height: inherit;
+        width: 100%;
+    }
+
+    .mobile-text-section-two {
+        text-align: center;
+        padding: 37px 0px;
+    }
+
+    .mobile-text-section-two img {
+        width: 40%;
+    }
+
+    .mobile-text-section-two p {
+        font-size: 12px;
+        padding-top: 37px;
+    }
+
+    .guide-section img {
+        content: url(../images/how-mobile.png);
+    }
+
+    .questions-section > h1:first-of-type {
+        font-size: 19px;
+    }
+
+    .question-block {
+        width: 90%;
+    }
+
+    .question-collapsed h1, .question-openned h1 {
+        font-size: 12px;
+    }
+
+    .related-products-section-title {
+        font-size: 20px;
+        width: 60%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .feedback h5 {
+        font-size: 15px;
+    }
+
+    .feedback-header {
+        font-size: 18px;
+    }
+
+    .feedback-header img {
+        width: 100%;
+        padding-top: 7px;
+    }
+
+    .certificates-section h1 {
+        font-size: 20px;
+    }
+
+    .mobile-certificates-logos img {
+        width: 50%;
+    }
+
+    .mobile-certificates-logos .row:last-child {
+        padding-top: 50px;
+    }
+
+    .col-one-background {
+        text-align: center;
+        padding: 13px 11px;
+    }
+
+    .col-one-background h1 {
+        font-size: 14px;
+    }
+
+    .col-one-background p {
+        font-size: 10px;
+        margin-bottom: 0px;
+    }
+
+    .col-two-background {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .col-two-background h1 {
+        font-size: 20px
+    }
+
+    .col-three-background {
+        padding-top: 10px;
+        border: 35px solid white;
+    }
+
+    .cards-container {
+        width: 100%;
+    }
+
+    .cards-container img {
+        width: 100%;
+    }
+
+    .mobile-footer-logo {
+        text-align: center;
+        padding-top: 30px;
+    }
+
+    .mobile-footer-logo img {
+        width: 40%;
+    }
+
+    .rights-container span {
+        font-size: 11px;
+        font-weight: 400;
+    }
+
+    .product-container {
+        display: inline-block;
+        margin-right: 5px;
+    }
+
 }
